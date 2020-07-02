@@ -1,4 +1,4 @@
-# Laravel Stripe Express Tutorial
+# Laravel Stripe Express Connect
 This is a boilerplate repo showing how to use <a href='https://stripe.com/docs/connect/express-accounts'>Stripe Express Connect</a> with Laravel. 
 
 ## Introduction
@@ -16,8 +16,6 @@ In this boilerplate, we have two types of users. Sellers, who sell their product
 
 ### Flow of funds with fees:
 When a customer purchases a product from a seller, the charge will be collected by your platform. A separate transfer with your fees extracted will then be sent to the connected account. Reference the image below to see the flow of funds during a purchase:
-
-![Stripe Image](https://stripe.com/img/docs/connect/charges_transfers.png "Flow of Funds")
 
 ## Getting Started
 
